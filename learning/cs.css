@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+#card{
+    background-color: #155c77;
+    height: 23rem;
+    width: 35rem;
+    border-radius: 35px;
+    box-shadow: -1px -3px 10px 0px rgb(108, 109, 37);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size:60px;
+    color: wheat;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+#parent{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+}
+/* white #ade1f5 */
+input{
+    margin-top: 3rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: wheat;
+    background-color:#3f809b;
+    border-radius: 100px;
+}
+::placeholder{
+    color:white;
+}
+
+input:focus{
+    background:linear-gradient(to right,rgb(109, 184, 91),#5aa3df );
+}
+
+#but{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+button{
+    border-radius: 50%;
+    width: 7rem;
+    height: 3rem;
+    color:white;
+    font-size: 20px;
+    background-color:#3f809b;
+}
+button:active{
+    background: linear-gradient(145deg,rgb(204, 212, 81),rgb(64, 243, 118));
+    color:#00b3ff;
+}
