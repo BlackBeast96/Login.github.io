@@ -51,6 +51,7 @@ int main(){
      s.push(6);
      s.push(8);
      s.push(7);
+     s.push(7);
      s.push(4);
      s.getmin();
 }
